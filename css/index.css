@@ -77,6 +77,25 @@ nav{
 nav a{
     color:#626262;
 }
+@media(max-width: 500px){
+    nav a{
+        font-size:1.5rem;
+        width:100%;
+        display:flex;
+        justify-content:center;
+    }
+    nav {
+        width:50%;
+    }
+    .artists-container{
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+    }
+    .bio{
+        font-size:1rem;
+    }
+}
 nav span{
     border-left:3px solid #626262;
 
